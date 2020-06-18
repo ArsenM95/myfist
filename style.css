@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    margin-top: 60px;
+    margin-left: 60%;
+}
+.topnav a{
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.topnav a:hover{
+    border-bottom: 3px solid #26e24f;
+}
+.topnav  .icon{
+    display: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .main__info{
+    margin-left: 40px;
+    text-align: left;
+    flex-direction: column;
+    padding: 400px 0 410px 0;
+    font-size: xx-large;
+    color: #ffffff;
+}
+/*.pic{*/
+/*    width: 100%;*/
+/*}*/
+button{
+    width: 220px;
+    height: 50px;
+    background-color: #2424e7;
+    border-bottom: none;
+    border: none;
+}
+.mybtn{
+    text-align: center;
+    padding: 8px 10px;
+    border: solid 1px #777777;
+    color: #000000;
+    background: #0f68e8;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-left: 40px;
+}
+.mybtn:hover {
+    color: #f8f407;
+    background: #f11212;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.main__team{
+    margin-left: 40px;
+    background: #ffffff;
+    text-align: center;
+    padding: 50px 0 165px 0;
+    color: #000000;
+}
+.main__team h2{
+    text-align: center;
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+.photo{
+    background: #defc02;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.our__advantages{
+    display: flex;
+    margin: 100px 40px 40px 150px;
+}
+.advantage{
+    font-size: 20px;
+    margin: 30px 50px;
+
+}
+.about__advantage{
+    font-size: 14px;
+}
+.wrapper{
+    position: center;
+    width: 100%;
+    margin: 0 auto;
+}
+main .main__about{
+    background: 100%;
+    background-color: #cbcbcb;
+    display: flex;
+    padding: 100px 100px 100px 120px;
+}
+.about__right{
+    margin-left: 175px;
+}
+.about__right h1{
+    display: inline-block;
+    border-bottom: 3px solid #000000;
+}
+.about__right p{
+    margin: 30px 0 50px 0;
+}
+.about__right li{
+    background: url("mark.png") 0px no-repeat;
+    padding-left: 25px ;
+}
+.about__right .mybtn{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+
+.about__left{
+    margin-left: 175px;
+}
+.about__left h1{
+    display: inline-block;
+    border-bottom: 3px solid #000000;
+}
+.about__left p{
+    margin: 30px 0 50px 0;
+}
+.about__left li{
+    background: url("mark.png") 0px no-repeat;
+    padding-left: 25px;
+}
+.about__left .mybtn{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.contact__from{
+    background-color: #b3bd8d;
+    padding: 100px 0 100px 0;
+}
+.contact__from h1{
+    text-align: center;
+    color: #000000;
+}
+form p{
+    text-align: left;
+}
+.contact__wrapper{
+    width: 753px;
+    margin: 0 auto;
+    color: #000000;
+}
+.red{
+    color: red;
+}
+.form__inputs{
+    margin-top: 100px;
+    display: flex;
+}
+input{
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+input:first-of-type{
+    margin-right: 23px;
+}
+textarea{
+    width: 100%;
+    height: 163px;
+}
+input, textarea{
+    border: 1px solid #999999;
+    margin-top: 3px;
+}
+.button__block{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type=submit]{
+    width: 165px;
+    height: 40px;
+    background: #0f68e8;
+    margin-right: 0;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #222222;
+    padding: 30px 0 30px 0;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin-left: 12px ;
+}
+.social img:hover{
+    opacity: 0.6;
+}
